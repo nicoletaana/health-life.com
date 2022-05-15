@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    background-image: url("../images/cer-albastru-959x615.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+header {
+    background-color: purple;
+    min-height: 70px;
+}
+
+header a {
+    float: left;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 20px;
+}
+
+header a.active {
+    background-color: black;
+}
+
+header a:hover {
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+footer {
+    min-height: 70px;
+    background-color: purple;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 3px 20px gray;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    min-height: 90vh;
+    padding: 5px 15% 20px 15%;
+}
+
+.header-logo {
+     float: left;
+   height: 60px;
+    margin: 10px 10px 15px 45px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.footer-info {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.img-start {
+    max-height: 500px;
+}
+
+.container-limbaje {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-limbaj {
+    margin-top: 5px;
+    max-height: 160px;
+    transition: all linear 1.5s;
+}
+
+.img-limbaj:hover {
+    transform: scale(1.1);
+    transition: all linear 1.5s;
+}
+
+
+.col-1 {width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row {
+    overflow: hidden;
+}
